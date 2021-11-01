@@ -378,63 +378,6 @@ Text GLabel 3400 3500 0    50   Input ~ 0
 D+
 Text GLabel 3400 3600 0    50   Input ~ 0
 D-
-$Comp
-L Type-C:HRO-TYPE-C-31-M-12 USB1
-U 1 1 618227A3
-P 7950 2850
-F 0 "USB1" H 7783 3647 60  0000 C CNN
-F 1 "HRO-TYPE-C-31-M-12" H 7783 3541 60  0000 C CNN
-F 2 "Type-C:HRO-TYPE-C-31-M-12-Assembly" H 7950 2850 60  0001 C CNN
-F 3 "" H 7950 2850 60  0001 C CNN
-	1    7950 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Polyfuse_Small F1
-U 1 1 61826CB6
-P 8750 2400
-F 0 "F1" V 8545 2400 50  0000 C CNN
-F 1 "500mA" V 8636 2400 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric" H 8800 2200 50  0001 L CNN
-F 3 "~" H 8750 2400 50  0001 C CNN
-	1    8750 2400
-	0    1    1    0   
-$EndComp
-$Comp
-L power:VCC #PWR0111
-U 1 1 6182BAC9
-P 8450 2400
-F 0 "#PWR0111" H 8450 2250 50  0001 C CNN
-F 1 "VCC" H 8465 2573 50  0000 C CNN
-F 2 "" H 8450 2400 50  0001 C CNN
-F 3 "" H 8450 2400 50  0001 C CNN
-	1    8450 2400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8050 2400 8450 2400
-Connection ~ 8450 2400
-Wire Wire Line
-	8450 2400 8650 2400
-$Comp
-L power:+5V #PWR0112
-U 1 1 6182DA7D
-P 9150 2400
-F 0 "#PWR0112" H 9150 2250 50  0001 C CNN
-F 1 "+5V" H 9165 2573 50  0000 C CNN
-F 2 "" H 9150 2400 50  0001 C CNN
-F 3 "" H 9150 2400 50  0001 C CNN
-	1    9150 2400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8850 2400 9150 2400
-Text GLabel 8050 2800 2    50   Input ~ 0
-D+
-Text GLabel 8050 2900 2    50   Input ~ 0
-D-
-Wire Wire Line
-	8050 3400 8200 3400
 Wire Wire Line
 	8800 4300 8950 4300
 $Comp
@@ -481,17 +424,6 @@ F 1 "MX-NoLED" H 8483 4299 20  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 7825 4125 60  0001 C CNN
 F 3 "" H 7825 4125 60  0001 C CNN
 	1    8450 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0113
-U 1 1 61832211
-P 8200 3400
-F 0 "#PWR0113" H 8200 3150 50  0001 C CNN
-F 1 "GND" H 8205 3227 50  0000 C CNN
-F 2 "" H 8200 3400 50  0001 C CNN
-F 3 "" H 8200 3400 50  0001 C CNN
-	1    8200 3400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -813,4 +745,108 @@ Text GLabel 9650 3900 1    50   Input ~ 0
 COL2
 Text GLabel 10200 3900 1    50   Input ~ 0
 COL3
+$Comp
+L Unified-Daughterboard-cache:acheronSymbols_TYPE-C-31-M12_13 J?
+U 1 1 61804EB1
+P 7650 2000
+F 0 "J?" H 7757 3417 50  0000 C CNN
+F 1 "acheronSymbols_TYPE-C-31-M12_13" H 7757 3326 50  0000 C CNN
+F 2 "acheronConnectors:TYPE-C-31-M-12" V 7150 2050 50  0001 C CNN
+F 3 "" H 7850 2050 50  0001 C CNN
+	1    7650 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 950  8350 950 
+Wire Wire Line
+	8250 850  8350 850 
+Wire Wire Line
+	8350 850  8350 950 
+Connection ~ 8350 950 
+Wire Wire Line
+	8350 950  8600 950 
+$Comp
+L power:VCC #PWR?
+U 1 1 6183E869
+P 8600 950
+F 0 "#PWR?" H 8600 800 50  0001 C CNN
+F 1 "VCC" H 8615 1123 50  0000 C CNN
+F 2 "" H 8600 950 50  0001 C CNN
+F 3 "" H 8600 950 50  0001 C CNN
+	1    8600 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse_Small F?
+U 1 1 6183FB82
+P 9000 950
+F 0 "F?" V 8795 950 50  0000 C CNN
+F 1 "500mA" V 8886 950 50  0000 C CNN
+F 2 "" H 9050 750 50  0001 L CNN
+F 3 "~" H 9000 950 50  0001 C CNN
+	1    9000 950 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8600 950  8900 950 
+Connection ~ 8600 950 
+Wire Wire Line
+	9100 950  9350 950 
+$Comp
+L power:+5V #PWR?
+U 1 1 618452D0
+P 9350 950
+F 0 "#PWR?" H 9350 800 50  0001 C CNN
+F 1 "+5V" H 9365 1123 50  0000 C CNN
+F 2 "" H 9350 950 50  0001 C CNN
+F 3 "" H 9350 950 50  0001 C CNN
+	1    9350 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 2100 8300 2100
+Wire Wire Line
+	8250 2000 8300 2000
+Wire Wire Line
+	8300 2000 8300 2100
+Connection ~ 8300 2100
+Wire Wire Line
+	8300 2100 8500 2100
+Wire Wire Line
+	8250 2400 8300 2400
+Wire Wire Line
+	8250 2300 8300 2300
+Wire Wire Line
+	8300 2300 8300 2400
+Connection ~ 8300 2400
+Wire Wire Line
+	8300 2400 8500 2400
+Wire Wire Line
+	7550 3450 7550 3500
+Wire Wire Line
+	7650 3450 7650 3500
+Wire Wire Line
+	7650 3500 7550 3500
+Connection ~ 7550 3500
+Wire Wire Line
+	7550 3500 7550 3600
+$Comp
+L power:GND #PWR?
+U 1 1 618653CC
+P 7550 3600
+F 0 "#PWR?" H 7550 3350 50  0001 C CNN
+F 1 "GND" H 7555 3427 50  0000 C CNN
+F 2 "" H 7550 3600 50  0001 C CNN
+F 3 "" H 7550 3600 50  0001 C CNN
+	1    7550 3600
+	1    0    0    -1  
+$EndComp
+Text GLabel 8500 2100 2    50   Input ~ 0
+D-
+Text GLabel 8500 2400 2    50   Input ~ 0
+D+
+Wire Wire Line
+	8250 1350 9350 1350
+Wire Wire Line
+	8250 1550 8900 1550
 $EndSCHEMATC

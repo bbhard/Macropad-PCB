@@ -1,0 +1,3 @@
+[submodule "V1/Unified-Daughterboard-master/Unified-Daughterboard"]
+	path = V1/Unified-Daughterboard-master/Unified-Daughterboard
+	url = https://github.com/ai03-2725/Unified-Daughterboard.git
