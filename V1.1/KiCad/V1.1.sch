@@ -368,7 +368,7 @@ Wire Wire Line
 Text GLabel 1500 3750 0    50   Input ~ 0
 D-
 $Comp
-L Type-C:HRO-TYPE-C-31-M-12 USB1
+L V1.1-rescue:HRO-TYPE-C-31-M-12-Type-C USB1
 U 1 1 6185DB88
 P 4300 1500
 F 0 "USB1" H 4133 2297 60  0000 C CNN
@@ -497,7 +497,7 @@ F 3 "" H 5250 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX1
+L V1.1-rescue:MX-NoLED-MX_Alps_Hybrid MX1
 U 1 1 6187DC71
 P 5450 3450
 F 0 "MX1" H 5483 3673 60  0000 C CNN
@@ -521,7 +521,7 @@ F 3 "~" V 5250 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX2
+L V1.1-rescue:MX-NoLED-MX_Alps_Hybrid MX2
 U 1 1 61888BA2
 P 6000 3450
 F 0 "MX2" H 6033 3673 60  0000 C CNN
@@ -545,7 +545,7 @@ F 3 "~" V 5800 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX3
+L V1.1-rescue:MX-NoLED-MX_Alps_Hybrid MX3
 U 1 1 6188BBFE
 P 6500 3450
 F 0 "MX3" H 6533 3673 60  0000 C CNN
@@ -569,7 +569,7 @@ F 3 "~" V 6300 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX4
+L V1.1-rescue:MX-NoLED-MX_Alps_Hybrid MX4
 U 1 1 6188BC0B
 P 7050 3450
 F 0 "MX4" H 7083 3673 60  0000 C CNN
@@ -593,7 +593,7 @@ F 3 "~" V 6850 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX5
+L V1.1-rescue:MX-NoLED-MX_Alps_Hybrid MX5
 U 1 1 618A611C
 P 5450 4150
 F 0 "MX5" H 5483 4373 60  0000 C CNN
@@ -617,7 +617,7 @@ F 3 "~" V 5250 4400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX6
+L V1.1-rescue:MX-NoLED-MX_Alps_Hybrid MX6
 U 1 1 618A6129
 P 6000 4150
 F 0 "MX6" H 6033 4373 60  0000 C CNN
@@ -641,7 +641,7 @@ F 3 "~" V 5800 4400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX7
+L V1.1-rescue:MX-NoLED-MX_Alps_Hybrid MX7
 U 1 1 618A6136
 P 6500 4150
 F 0 "MX7" H 6533 4373 60  0000 C CNN
@@ -665,7 +665,7 @@ F 3 "~" V 6300 4400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX8
+L V1.1-rescue:MX-NoLED-MX_Alps_Hybrid MX8
 U 1 1 618A6143
 P 7050 4150
 F 0 "MX8" H 7083 4373 60  0000 C CNN
@@ -689,7 +689,7 @@ F 3 "~" V 6850 4400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX9
+L V1.1-rescue:MX-NoLED-MX_Alps_Hybrid MX9
 U 1 1 618ADC8C
 P 5450 4800
 F 0 "MX9" H 5483 5023 60  0000 C CNN
@@ -713,7 +713,7 @@ F 3 "~" V 5250 5050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX10
+L V1.1-rescue:MX-NoLED-MX_Alps_Hybrid MX10
 U 1 1 618ADC99
 P 6000 4800
 F 0 "MX10" H 6033 5023 60  0000 C CNN
@@ -737,7 +737,7 @@ F 3 "~" V 5800 5050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX11
+L V1.1-rescue:MX-NoLED-MX_Alps_Hybrid MX11
 U 1 1 618ADCA6
 P 6500 4800
 F 0 "MX11" H 6533 5023 60  0000 C CNN
@@ -761,7 +761,7 @@ F 3 "~" V 6300 5050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX12
+L V1.1-rescue:MX-NoLED-MX_Alps_Hybrid MX12
 U 1 1 618ADCB3
 P 7050 4800
 F 0 "MX12" H 7083 5023 60  0000 C CNN
@@ -923,10 +923,10 @@ Text GLabel 3450 4050 2    50   Input ~ 0
 COL2
 Text GLabel 3450 3950 2    50   Input ~ 0
 COL3
-Text GLabel 3450 3250 2    50   Input ~ 0
+Text GLabel 3450 3050 2    50   Input ~ 0
 ROW0
 Text GLabel 3450 3150 2    50   Input ~ 0
 ROW1
-Text GLabel 3450 3050 2    50   Input ~ 0
+Text GLabel 3450 3250 2    50   Input ~ 0
 ROW2
 $EndSCHEMATC
