@@ -1,8 +1,8 @@
 # Macropad-PCB
 
 I have started designing and possiblytm manufacturing a macropad. This is a sideproject so don't expect much please.
-![schem](https://user-images.githubusercontent.com/76909216/140521871-cad9931c-c2de-4a85-86f2-efbcbac1623b.png)
 
+![schem](https://user-images.githubusercontent.com/76909216/141658668-fc57dde7-3e1d-4671-8063-b69e72fd0edb.png)
 
 ## Iterations
 Version | Description | Issues
